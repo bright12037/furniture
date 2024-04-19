@@ -1,0 +1,198 @@
+.MyNavBar{
+    padding: 10px 10%;
+    color: #FDF9F4;
+}
+
+.TopNav{
+    display: flex;
+    background-color: #FAFAFA;
+    padding: 15px 10px;
+    color: rgb(93, 99, 116) ;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.TopNav ul{
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+.TopNav ul li{
+    list-style: none;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flag{
+    border-radius:100px;
+    object-fit: cover;
+}
+
+#NYC{
+    border-right: solid #FF7C0A 1px;
+    border-left: solid #FF7C0A 1px;
+    padding-left: 10px;
+}
+#usd{
+    border-right: solid #FF7C0A 1px;
+    border-left: solid #FF7C0A 1px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.usddrop{
+    background-color: white;
+    position: absolute;
+    top: 7%;
+    right: 26%;
+    cursor: pointer;
+}
+.usddrop div{
+    padding-bottom: 12px;
+}
+
+.parentBottomnav{
+    position: relative;
+}
+
+.BottomNav{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    color: rgb(93, 99, 116) ;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: relative;
+}
+.BottomNav ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 25px;
+    padding-right: 25px;
+}
+.BottomNav ul li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.BottomNav ul li:hover{
+    color: #6DB356;
+}
+#browse{
+    color: #FF7C0A;
+    font-weight: bold;
+}
+#browse:hover{
+    color: #6DB356;
+}
+
+.BottomNavicons{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size: 25px;
+    color: rgb(93, 99, 116) ;
+    font-weight: 500;
+}
+.BottomNavicons p{
+    cursor: pointer;
+}
+#DotsIcon{
+    background-color: #FF7C0A;
+    padding: 10px 15px ;
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+}
+.DropdownBrowse{
+        background-color: #ddd6d6;
+        border-radius: 5px;
+        padding: 10px 10px;
+        color: rgb(93, 99, 116) ;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: centr;
+        gap: 40px;
+        position: absolute;
+        top: 125px;
+        left: 520px;
+        
+}
+.DropdownBrowse ul{
+    list-style: none;
+    
+}
+.DropdownBrowse ul li{
+    padding-bottom: 5px;
+    cursor: pointer;
+    
+}
+.DropdownBrowse ul li:hover{
+    color: #6DB356 ;
+    transition: all ease-out 0.1;
+    
+    transform:scale(1.1) ;
+}
+.DropdownDot{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(93, 99, 116) ;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.DropdownDot h1{
+    color: black;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.DropdownDot p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.DropdownDot button{
+    padding: 10px;
+    background-color: #6DB356;
+    color: #eee7e7;
+    font-size:25px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.dropdown2{
+    background-color: rgb(248, 244, 244);
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(93, 99, 116) ;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    left: 48%;
+    display:none ;
+}
+#home:hover .dropdown2{
+    display:block;
+}
+
+
+.dropdown2 p{
+    padding-bottom: 10px;
+    
+}

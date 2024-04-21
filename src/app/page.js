@@ -1,3 +1,28 @@
+'use client'
+
+import React from 'react'
+import HomeSection1 from '@/component/HomeComp/HomeSection1'
+import HomeSection2 from '@/component/HomeComp/HomeSection2'
+
+const page = () => {
+  return (
+      <div>
+          <section> <HomeSection1 /></section>
+          <section> <HomeSection2 /></section>
+
+      </div>
+
+
+
+  )
+}
+
+export default page
+
+
+
+
+
 // 'use client'
 // import React from "react";
 // import './furniture.css'
@@ -36,14 +61,4 @@
 //   )
 // }
 // export default page
-'use client'
 
-import React from 'react'
-
-const page = () => {
-  return (
-    <main> Homepage </main>
-  )
-}
-
-export default page

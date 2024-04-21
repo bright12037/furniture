@@ -15,6 +15,12 @@
     border-radius: 10px;
     margin-top: 20px;
 }
+.internaldiv:hover{
+    color: white;
+    background-color: #FF7C0A;
+    border: none;
+}
+
 .internaldiv img{
     padding-bottom: 15px;
 }

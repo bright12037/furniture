@@ -41,6 +41,7 @@ export const homesection2card = [
             text2: "25 Items Chair"
         }
 
+        
 
 
 

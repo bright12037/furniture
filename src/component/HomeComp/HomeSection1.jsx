@@ -107,7 +107,11 @@ const HomeSection1 = () => {
       
                 </div> 
           )}
-
+{/* you can use 
+{show1===true && <div>....</div>}
+{show2===true && <div>.....</div>}
+{show3===true && <div>....</div>}
+ */}
 
     </div>
   )

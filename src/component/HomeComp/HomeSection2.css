@@ -28,3 +28,163 @@
     Font-size: 20px;
     Font-weight: 700;
 }
+
+/* ===================================================================== */
+.section3{
+    padding-top: 10%;
+}
+
+.bannerSection{
+    display: flex;
+    padding: 20px 10%;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+
+.bannerDivOne{
+    width: 100%;
+    position: relative;
+}
+
+.bannImage{
+    width: 100%;
+}
+
+.bannerDivTwo{
+    width: 100%;
+}
+
+.banerDivOneText{
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    text-align: center;
+    color: white;
+}
+
+.banerDivOneText h4{
+    font-size: 20px;
+}
+
+.banerDivOneText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.banerDivOneText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.banerDivOneText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.banerDivOneText button:hover{
+    background-color: orange;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+
+
+
+.bannerDivTwo{
+    position: relative;
+}
+
+.banerDivTwoText{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    text-align: left;
+}
+
+.banerDivTwoText h4{
+    font-size: 20px;
+}
+
+.banerDivTwoText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.banerDivTwoText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+.banerDivTwoText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.banerDivTwoText button:hover{
+    background-color: orange;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+
+.bannerDivThree{
+    position: relative;
+    padding: 2px 10%;
+}
+.bannImage2{
+    width: 100%;
+}
+
+.banerDivThreeText{
+    position: absolute;
+    top: 70px;
+    left: 13%;
+    text-align: left;
+}
+
+.banerDivThreeText h4{
+    font-size: 20px;
+}
+
+.banerDivThreeText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.banerDivThreeText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+.banerDivThreeText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.banerDivThreeText button:hover{
+    background-color: orange;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}

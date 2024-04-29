@@ -1,0 +1,120 @@
+.Section4{
+    padding: 10% 10%;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    background-color: #FDF9F5;
+}
+.Section4middle{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: px;
+    border-bottom: solid 0.1px #FF7C0A;
+}
+
+.Section4middle p{
+    cursor: pointer;
+}
+
+.Section4middle p:hover{
+    color: #FF7C0A;
+}
+
+.Section4midddleLeft{
+    display: flex;
+    gap: 30px;
+}
+
+#Gaming{
+    padding-bottom: 10px ;
+    border-bottom: solid 3px rgb(255, 124, 10);
+}
+
+.Section4Bottom{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 30x;   
+}
+
+.Section4internaldiv{
+    flex: 0 0 32%;
+    background-color: rgb(247, 243, 243);
+    border-radius: 10px;
+    padding: 20px 16px;
+    margin: 20px 0; 
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Section4internaldiv img{
+    width: 100%;
+}
+
+#text2{
+    font-Size: 17px;
+     font-Weight: 700;
+     padding: 10px 0;
+}
+
+#text2:hover{
+    color: #FF7C0A;
+}
+
+.Section4internaldiv button{
+        margin-Left: auto ;
+        align-Items:center;
+        padding:10px ;
+        border: solid 1px;
+        border-radius: 5px;
+        background-color: white;
+}
+
+.internaldivicon{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    display: none;
+    /* opacity: 0; */
+}
+
+.internaldivicon div{
+    background-color: rgb(187, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.internaldivicon div:hover{
+    background-color: rgb(98, 214, 98);
+    
+}
+
+.Section4internaldiv:hover{
+    background-color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+.Section4internaldiv:hover .internaldivicon{
+    /* opacity: 1; */
+    display: block;
+}
+
+.Section4internaldiv:hover #btn{
+        background-color:#FF7C0A;
+        color: white;
+}
+
+.internaldivicon p{
+    padding-bottom: 20px;
+}

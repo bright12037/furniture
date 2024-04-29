@@ -3,13 +3,16 @@
 import React from 'react'
 import HomeSection1 from '@/component/HomeComp/HomeSection1'
 import HomeSection2 from '@/component/HomeComp/HomeSection2'
+import HomeSection4 from '@/component/HomeComp/HomeSection4'
+import HomeSection5 from '@/component/HomeComp/HomeSection5'
 
 const page = () => {
   return (
       <div>
           <section> <HomeSection1 /></section>
           <section> <HomeSection2 /></section>
-
+          <section><HomeSection4 /></section>
+          <section><HomeSection5 /></section>
       </div>
 
 

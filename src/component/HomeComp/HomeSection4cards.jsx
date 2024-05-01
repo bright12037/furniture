@@ -465,5 +465,29 @@ export const Homesection5card = [
         text3:"$55.00",
         button: "Shop Now",
     },
+
+    {
+        img: img5,
+        text1:"Bottel Gaurd (Lauki) ",
+        text2:"$95.00",
+        text3:"$55.00",
+        button: "Shop Now",
+    },
+
+    {
+        img: img6,
+        text1:"Bottel Gaurd (Lauki) ",
+        text2:"$95.00",
+        text3:"$55.00",
+        button: "Shop Now",
+    },
+
+    {
+        img: img7,
+        text1:"Bottel Gaurd (Lauki) ",
+        text2:"$95.00",
+        text3:"$55.00",
+        button: "Shop Now",
+    },
 ]
 

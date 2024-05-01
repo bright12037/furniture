@@ -62,7 +62,7 @@ const HomeSection5 = () => {
 {/* ================================================================================================================================= */}
                 <div className='section5Bottomdiv'> 
                         <div  className='section5Bottomdivchild'>
-                            {Homesection5card.map((data, index) =>(
+                            {Homesection5card.slice(0,3).map((data, index) =>(
                                 <div key={index} className='holder'>
                                         <div>
                                             <Image src={data.img} width={110}/>
@@ -86,7 +86,7 @@ const HomeSection5 = () => {
 
                         <div className='middlediv'>
                                 <div className='middleimg'>
-                                    <Image src={image4} width={100} height={90} />
+                                    <Image src={image4} />
                                 </div>
                                 <div className='middleimgtext'>
                                     <p style={{fontSize:"18px", fontWeight:"400"}}> UP TO <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
@@ -96,7 +96,7 @@ const HomeSection5 = () => {
                         </div>
 
                         <div  className='section5Bottomdivchild'>
-                            {Homesection5card.map((data, index) =>(
+                            {Homesection5card.slice(3,6).map((data, index) =>(
                                 <div key={index} className='holder'>
                                         <div>
                                             <Image src={data.img} width={110}/>
@@ -137,7 +137,7 @@ const HomeSection5 = () => {
                     <p style={{fontSize:"16px", color:"400",color:"rgb(93, 99, 116)"}}>Interactively product distinctive paradigms whereas one-to-one <br /> intellectual capital. resource sucking services.</p>
                 </div>
 
-                <div className='section6lastdiv' style={{}}>
+                <div className='section6lastdiv'>
                     <div className='section6lastdivs'>
                         <Image src={pic2} />
                         <div style={{padding:"0 25px"}}>

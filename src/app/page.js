@@ -6,21 +6,21 @@ import HomeSection2 from '@/component/HomeComp/HomeSection2'
 import HomeSection4 from '@/component/HomeComp/HomeSection4'
 import HomeSection5 from '@/component/HomeComp/HomeSection5'
 import Navbar from '@/component/Navbar'
-// import { useState } from 'react'
+import { useState } from 'react'
 import { FaHandPointer } from "react-icons/fa6";
 
 const page = () => {
 
-    // const [lightModeState, setLightModeState] = useState(true)
-    //     const colorChangeFunc = () => {
-    //     setLightModeState(!lightModeState)
-    //   }
+    const [lightModeState, setLightModeState] = useState(true)
+        const colorChangeFunc = () => {
+        setLightModeState(!lightModeState)
+      }
   
   return (
       <div >
-        <div className=''>
+        <div className={lightModeState===true ? 'lightmode' : 'darkmode'}>
           
-        <section> <Navbar /></section>
+        <section> <Navbar theColorFunc={colorChangeFunc} navBarcolor = {lightModeState} /></section>
             
           <section> <HomeSection1 /> </section>
           <section> <HomeSection2 /></section>

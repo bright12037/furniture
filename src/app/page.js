@@ -26,7 +26,7 @@ const page = () => {
           <section> <HomeSection2 /></section>
           <section><HomeSection4 /></section>
           <section><HomeSection5 /></section>
-          <p className='Pointer'><FaHandPointer /></p>
+          <p className='Pointer'><FaHandPointer /></p> 
         </div>
 
       </div>

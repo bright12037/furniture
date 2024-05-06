@@ -12,7 +12,7 @@ const HomeSection2 = () => {
   return (
     <div>
             <div className='parentdiv'>
-                <h1 style={{textAlign:"center", fontSize:"40px", fontWeight:"700"}}>Choose Your Category</h1>
+                <h1 >Choose Your Category</h1>
                 <div className='bottomsection'>
                     {homesection2card.map((data, index) =>(
                         <div key ={index} className='internaldiv'>

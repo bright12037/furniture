@@ -27,6 +27,7 @@ import { MdAccessTime } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 
+
 const HomeSection5 = () => {
 
   return (
@@ -178,10 +179,8 @@ const HomeSection5 = () => {
                     </div>
                 </div>
 
-                
 
         </div>
-
     </div>
 )
 }

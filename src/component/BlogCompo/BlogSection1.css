@@ -1,0 +1,21 @@
+.blogTop{
+    padding-top: 12%;
+    background-color: #E8F1E5;
+    color: #191D28;
+    width: 100%;
+}
+.blogTop h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.blogtopdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding-bottom: 5%;
+}
+.blogtopdiv p{
+    display: flex;
+    align-items: center;
+}

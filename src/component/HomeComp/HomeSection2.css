@@ -1,3 +1,9 @@
+.parentdiv h1{
+    text-Align:center; 
+    font-Size:40px;
+    font-Weight:700;
+}
+
 .bottomsection{
     display: flex;
     justify-content: center;
@@ -187,4 +193,18 @@
     background-color: orange;
     transition: all 0.2s ease;
     transform: scale(1.09);
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px)  {
+    .parentdiv h1{
+        text-Align:center; 
+        font-Size:30px;
+        font-Weight:700;
+    }
+
+    .bottomsection{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
 }

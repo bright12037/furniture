@@ -24,12 +24,15 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { TbCurrencyYuan } from "react-icons/tb";
 import { FaYenSign } from "react-icons/fa6";
+import { IoMdMoon } from "react-icons/io";
+import { IoSunnySharp } from "react-icons/io5";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 
 
-const Navbar = () => {
+const Navbar = ({theColorFunc, navBarcolor}) => {
 
     AOS.init();
 
@@ -55,7 +58,7 @@ const Navbar = () => {
 
   return (
     
-    <div className='MyNavBar'>
+    <div className={navBarcolor === true ? 'MyNavBar lightmode' : 'MyNavBar darkmode'}>
         <div className='TopNav'>
             <p>Welcome to our Organic store</p>
             <ul>
@@ -63,14 +66,20 @@ const Navbar = () => {
                 <li id='NYC'> <VscLocation /> Washington, New york City</li>
                 <li onClick={usdShowDrop}><Image className='flag' src={flag} alt="flag" width={20}  /> English<FaCaretDown style={{fontSize:"15px"}} /></li>
                 <li id='usd' onClick={currencyShowDrop}>USD<FaCaretDown /></li>
-                <li>Dark <RiContrast2Fill /></li>
+                <div onClick={theColorFunc}>
+                        {
+                            navBarcolor === true ?
+                            <li>Dark <IoMdMoon /></li> :
+                            <li>Light <IoSunnySharp /></li>
+                        }
+                    </div>
             </ul>
         </div>
 
 
           <div className='parentBottomnav'>
                 
-                <div className='BottomNav'>
+                <div className= {navBarcolor === true ? 'BottomNav' :'BottomNav BottomNav2'} >
                         <Image src = {logo} alt = "a logo" width={200} />
                         <ul>
                             <li onClick={buttonShow} id='browse'>Browse Category<VscChevronDown /></li>
@@ -86,7 +95,8 @@ const Navbar = () => {
                             <p><CgProfile /></p>
                             <p><IoBagOutline /></p>
                             <p onClick={buttonShow1} id='DotsIcon'><TbGridDots /></p>
-                        </div>  
+                        </div> 
+                        <p onClick={buttonShow1} id='DotsIcon2'><TbGridDots /></p>
                 </div>
           </div>
         {Show === false ? ('') : ( 

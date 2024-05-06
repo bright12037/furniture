@@ -8,6 +8,7 @@ import image3 from '../images/hero-img-3.png'
 import { GoDotFill } from "react-icons/go";
 import { FaRegDotCircle } from "react-icons/fa";
 import { useState } from 'react'
+import Navbar from '@/component/Navbar'
 
 
 
@@ -39,8 +40,14 @@ const HomeSection1 = () => {
   };
 
 
+    const [lightModeState, setLightModeState] = useState(true)
+        const colorChangeFunc = () => {
+        setLightModeState(!lightModeState)
+      }
+
   return (
     <div>
+      <Navbar theColorFunc={colorChangeFunc} navBarcolor = {lightModeState} />
         {showSection1 === false ? (  
         <div className='Section1'>
                 <div className='LeftSection1'>

@@ -59,12 +59,12 @@ const Footer = () => {
           </div>
           <div className='footersectionbottom'>
             <p>© All rights reserved Made by <span id="theme">ThemeTags</span></p>
-            <Image src = {logo} />
+            <Image src = {logo} alt='hh'/>
             <div>
-                <Image src = {payment} />
-                <Image src = {payment2} />
-                <Image src = {payment3} />
-                <Image src = {payment4} />
+                <Image src = {payment} alt='hh'/>
+                <Image src = {payment2} alt='hh'/>
+                <Image src = {payment3} alt='hh'/>
+                <Image src = {payment4} alt='hh'/>
             </div>
           </div>
 

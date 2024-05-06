@@ -36,7 +36,7 @@ const HomeSection5 = () => {
 
                 <div className='Setion5'>
                     <div className='section5TopLeft'>
-                        <Image src={image1} />
+                        <Image src={image1} alt='hh' />
                         <div className='section5TopLeftbottom'>
                             <p style={{fontSize:"24px", fontWeight:"400", paddingBottom:"4px"}}> MEGA SALE <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
                             <p style={{fontSize:" 40px", fontWeight:"800",  paddingBottom:"4px"}}>New Sofa Collections</p>
@@ -46,7 +46,7 @@ const HomeSection5 = () => {
                     </div>
 
                     <div className='section5TopRight'>
-                        <Image src={image2} />
+                        <Image src={image2} alt='hh' />
                         <div className='section5TopRightbottom'>
                                 <p style={{fontSize:"18px", fontWeight:"400"}}> MEGA SALE <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
                                 <p style={{fontSize:" 32px", fontWeight:"800", color:"rgb(25, 29, 40)"}}>Chair Collections</p>
@@ -66,7 +66,7 @@ const HomeSection5 = () => {
                             {Homesection5card.slice(0,3).map((data, index) =>(
                                 <div key={index} className='holder'>
                                         <div>
-                                            <Image src={data.img} width={110}/>
+                                            <Image src={data.img} width={110} alt='hh'/>
                                         </div>
                                         <div style={{marginLeft:"auto"}}>
                                                 <div style={{color:"#FF7C0A", display:"flex", paddingBottom:"10px"}}>
@@ -87,7 +87,7 @@ const HomeSection5 = () => {
 
                         <div className='middlediv'>
                                 <div className='middleimg'>
-                                    <Image src={image4} />
+                                    <Image src={image4} alt='hh'/>
                                 </div>
                                 <div className='middleimgtext'>
                                     <p style={{fontSize:"18px", fontWeight:"400"}}> UP TO <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
@@ -100,7 +100,7 @@ const HomeSection5 = () => {
                             {Homesection5card.slice(3,6).map((data, index) =>(
                                 <div key={index} className='holder'>
                                         <div>
-                                            <Image src={data.img} width={110}/>
+                                            <Image src={data.img} width={110} alt='hh'/>
                                         </div>
                                         <div style={{marginLeft:"auto"}}>
                                                 <div style={{color:"#FF7C0A", display:"flex", paddingBottom:"10px"}}>
@@ -121,7 +121,7 @@ const HomeSection5 = () => {
 {/* ========================================================================================================================== */}
                 <div className='section6'>
                     <div className='section6img'>
-                        <Image src={pic1} />
+                        <Image src={pic1} alt='hh' />
                     </div>   
                     <div className='section6bottom'>
                         <p style={{fontSize:"32px", color:"rgb(25, 29, 40)",fontWeight:"800", lineHeight:"41px"}}>Subscribe Our Newsletter to <br/>
@@ -140,7 +140,7 @@ const HomeSection5 = () => {
 
                 <div className='section6lastdiv'>
                     <div className='section6lastdivs'>
-                        <Image src={pic2} />
+                        <Image src={pic2} alt='hh'/>
                         <div style={{padding:"0 25px"}}>
                         <div style={{display:"flex"}}>
                         <p style={{display:"flex", alignItems:"center",gap:"3px", fontSize:"14px", color:"rgb(93, 99, 116)"}}> <FaTags />  Organic Vegetable</p>
@@ -153,7 +153,7 @@ const HomeSection5 = () => {
                     </div>
 
                     <div className='section6lastdivs'>
-                        <Image src={pic3} />
+                        <Image src={pic3} alt='hh'/>
                         <div style={{padding:"0 25px"}}>
                         <div style={{display:"flex"}}>
                         <p style={{display:"flex", alignItems:"center", gap:"3px", fontSize:"14px", color:"rgb(93, 99, 116)"}}> <FaTags />  Organic Vegetable</p>
@@ -166,7 +166,7 @@ const HomeSection5 = () => {
                     </div>
 
                     <div className='section6lastdivs'>
-                        <Image src={pic4} />
+                        <Image src={pic4} alt='hh'/>
                         <div style={{padding:"0 25px"}}>
                         <div style={{display:"flex"}}>
                         <p style={{display:"flex", alignItems:"center",gap:"3px", fontSize:"14px", color:"rgb(93, 99, 116)"}}> <FaTags />  Organic Vegetable</p>

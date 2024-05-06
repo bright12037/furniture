@@ -74,7 +74,7 @@ const HomeSection4 = () => {
                               <div className='Section4Bottom'>
                               {HomeSection4cards.map((data, index) =>(
                                   <div key ={index} className='Section4internaldiv'>
-                                      <Image src={data.img} />
+                                      <Image src={data.img} alt='dd' />
                                       <p style={{color:"#FF7C0A", fontSize:"13px", fontWeight:"700"}}>{data.text1}</p>
                                       <p id='text2'>{data.text2}</p>
                                       <p >{data.rating}</p>
@@ -97,7 +97,7 @@ const HomeSection4 = () => {
                       <div className='Section4Bottom'>
                              {HomeSection4cards2.map((data, index) =>(
                                  <div key ={index} className='Section4internaldiv'>
-                                     <Image src={data.img} />
+                                     <Image src={data.img} alt='hh'/>
                                      <p style={{color:"#FF7C0A", fontSize:"13px", fontWeight:"700"}}>{data.text1}</p>
                                      <p id='text2'>{data.text2}</p>
                                      <p >{data.rating}</p>
@@ -120,7 +120,7 @@ const HomeSection4 = () => {
                              <div className='Section4Bottom'>
                              {HomeSection4cards3.map((data, index) =>(
                                  <div key ={index} className='Section4internaldiv'>
-                                     <Image src={data.img} />
+                                     <Image src={data.img} alt='hh' />
                                      <p style={{color:"#FF7C0A", fontSize:"13px", fontWeight:"700"}}>{data.text1}</p>
                                      <p id='text2'>{data.text2}</p>
                                      <p >{data.rating}</p>
@@ -143,7 +143,7 @@ const HomeSection4 = () => {
                       <div className='Section4Bottom'>
                              {HomeSection4cards4.map((data, index) =>(
                                  <div key ={index} className='Section4internaldiv'>
-                                     <Image src={data.img} />
+                                     <Image src={data.img} alt='hh' />
                                      <p style={{color:"#FF7C0A", fontSize:"13px", fontWeight:"700"}}>{data.text1}</p>
                                      <p id='text2'>{data.text2}</p>
                                      <p >{data.rating}</p>

@@ -16,7 +16,7 @@ const HomeSection2 = () => {
                 <div className='bottomsection'>
                     {homesection2card.map((data, index) =>(
                         <div key ={index} className='internaldiv'>
-                            <Image src={data.img} />
+                            <Image src={data.img} alt='dd' />
                             <h3>{data.text}</h3>
                             <div style={{display:"flex", alignItems:"center"}}>
                             <span style={{color: "orange"}}><GoDotFill /></span>
@@ -30,7 +30,7 @@ const HomeSection2 = () => {
             <div className='section3'>
                     <div className='bannerSection'>
                   <div className='bannerDivOne'>
-                    <Image src={pic1} alt='' className='bannImage'/>
+                    <Image src={pic1} alt='dd' className='bannImage'/>
 
                     <div className='banerDivOneText'>
                       <h4>UP TO 20% OFF</h4>
@@ -41,7 +41,7 @@ const HomeSection2 = () => {
                   </div>
 
                   <div className='bannerDivTwo'>
-                    <Image src={pic2} alt='' className='bannImage'/>
+                    <Image src={pic2} alt='dd' className='bannImage'/>
 
                     <div className='banerDivTwoText'>
                       <h4>UP TO 20% OFF</h4>
@@ -54,7 +54,7 @@ const HomeSection2 = () => {
 
 
                 <div className='bannerDivThree'>
-                        <Image src={pic3} className='bannImage2'/>
+                        <Image src={pic3} className='bannImage2' alt='dd'/>
 
                         <div className='banerDivThreeText'>
                           <h4>UP TO 20% OFF</h4>

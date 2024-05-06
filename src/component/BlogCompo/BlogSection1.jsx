@@ -18,7 +18,7 @@ const BlogSection1 = () => {
         <p><HiOutlineChevronDoubleRight /> </p>
         <p>Blog Grid</p>
         </div>
-        <Image src={bgimg} />
+        <Image src={bgimg} alt='hh' />
       </div>
       
     </div>

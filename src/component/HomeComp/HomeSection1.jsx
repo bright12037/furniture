@@ -51,7 +51,7 @@ const HomeSection1 = () => {
                         <button>Shop Now</button>
                 </div>
                 <div className='RightSection1'  data-aos="fade-left">
-                  <Image src={image1} />
+                  <Image src={image1} alt='a' />
                 </div>
 
                 <div className='dot'> 
@@ -74,7 +74,7 @@ const HomeSection1 = () => {
                         <button>Shop Now</button>
                 </div>
                 <div className='RightSection1' data-aos="fade-left">
-                  <Image src={image2} />
+                  <Image src={image2} alt='as'/>
                 </div>
 
                 <div className='dot'> 
@@ -96,7 +96,7 @@ const HomeSection1 = () => {
                               <button>Shop Now</button>
                       </div>
                       <div className='RightSection1'  data-aos="fade-left">
-                        <Image src={image3} />
+                        <Image src={image3} alt='asd' />
                       </div>
       
                       <div className='dot'> 

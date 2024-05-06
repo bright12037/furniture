@@ -69,7 +69,7 @@ const HomeSection1 = () => {
                 <div className='LeftSection1'>
                         <p>Unique & Stylish</p> 
                         <p id='furniture'><span style={{color:"black"}}>Modern</span> Furniture</p>
-                        <p id='sectiontext'>Assertively target market-driven intellectual capital with <br/>
+                        <p id='sectiontext'>Assertivelys target market-driven intellectual capital with <br/>
                           worldwide human is simply free text quiz Bibendum holistic.</p>
                         <button>Shop Now</button>
                 </div>

@@ -195,7 +195,7 @@
     transform: scale(1.09);
 }
 
-@media only screen and (min-width: 320px) and (max-width:768px)  {
+@media only screen and (min-width: 320px) and (max-width:599px)  {
     .parentdiv h1{
         text-Align:center; 
         font-Size:30px;
@@ -206,5 +206,38 @@
         display: grid;
         justify-content: center;
         gap: 30px;
+    }
+
+    .bannerSection{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 10%;
+    gap: 20px;
+    font-family: sans-serif;
+    }
+
+    .bannerDivThree{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px)  {
+    .bottomsection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        padding:0 10%;
+        gap: 20px;
+    }
+
+    .bannerSection{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 10%;
+        gap: 20px;
+        font-family: sans-serif;
+        }
+    .bannerDivThree{
+        display: none;
     }
 }

@@ -28,7 +28,7 @@ const HomeSection2 = () => {
             </div>
 
             <div className='section3'>
-                    <div className='bannerSection'>
+                <div className='bannerSection'>
                   <div className='bannerDivOne'>
                     <Image src={pic1} alt='dd' className='bannImage'/>
 

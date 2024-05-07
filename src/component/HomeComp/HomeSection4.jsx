@@ -53,9 +53,9 @@ const HomeSection4 = () => {
   return (
     <div>
               <div className='Section4'>
-                      <div className='Section4Top' style={{display:"flex", alignItems:"center"}}>
+                      <div className='Section4Top'>
                         <p style={{fontSize:"40px", fontWeight:"700", }}>Featured Collections</p>
-                        <p style={{fontSize:"16px", fontWeight:"400", marginLeft:"auto", color:"gray"}}>Globally drive principle-centered strategic theme areas vis- <br/>
+                        <p id='globally' >Globally drive principle-centered strategic theme areas vis- <br/>
                         a-vis goal-oriented best practices state of the Dynamically.</p>
                       </div>
                 
@@ -65,9 +65,10 @@ const HomeSection4 = () => {
                             {Show2 === true ? ( <p id='Gaming' onClick={Show2button}> Dining Set <sup>10</sup></p>) : (<p onClick={Show2button}> Dining Set <sup>10</sup></p> )}
                              {Show3 === true ? (<p id='Gaming'  onClick={Show3button}>Office Table <sup>20</sup></p> ) : (<p onClick={Show3button}>Office Table <sup>20</sup></p> )}
                              {Show4 === true ? (<p id='Gaming' onClick={Show4button}>Office Desk <sup>19</sup></p> ) : ( <p onClick={Show4button}>Office Desk <sup>19</sup></p>)}
+                            <p id='allfuniture'>All Furniture <FaArrowRight style={{color:"#FF7C0A"}}/></p>
                           </div>
-                          <p style={{marginLeft:"auto"}}>All Furniture <FaArrowRight style={{color:"#FF7C0A"}}/></p>
-                      </div>
+                          <p id='allfuniture2' >All Furniture <FaArrowRight style={{color:"#FF7C0A"}}/></p>
+              </div>
 {/* ==================================first items logic ======================================-====================== */}
 
                       {Show1 === true ? (

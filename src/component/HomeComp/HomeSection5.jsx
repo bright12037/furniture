@@ -38,9 +38,9 @@ const HomeSection5 = () => {
                     <div className='section5TopLeft'>
                         <Image src={image1} alt='hh' />
                         <div className='section5TopLeftbottom'>
-                            <p style={{fontSize:"24px", fontWeight:"400", paddingBottom:"4px"}}> MEGA SALE <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
-                            <p style={{fontSize:" 40px", fontWeight:"800",  paddingBottom:"4px"}}>New Sofa Collections</p>
-                            <p style={{fontSize:"20px", fontWeight:"400", color:"gray",  paddingBottom:"4px"}}>Assertively target market-driven intellectual capital <br /> free text quiz Bibendum holistic.</p>
+                            <p id='mega' > MEGA SALE <span style={{color:"#FF7C0A"}}>65% OFF</span> </p>
+                            <p id='newsofa'>New Sofa Collections</p>
+                            <p id='assert'>Assertively target market-driven intellectual capital <br /> free text quiz Bibendum holistic.</p>
                             <button style={{padding:"15px 20px", color:"white", border:"none", backgroundColor:"#FF7C0A", borderRadius:"10px"}}>Shop Now</button>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const HomeSection5 = () => {
                         <Image src={pic1} alt='hh' />
                     </div>   
                     <div className='section6bottom'>
-                        <p style={{fontSize:"32px", color:"rgb(25, 29, 40)",fontWeight:"800", lineHeight:"41px"}}>Subscribe Our Newsletter to <br/>
+                        <p id='subscribe' >Subscribe Our Newsletter to <br/>
                          Get Latest Update & News</p>
                         <div style={{display:"flex", alignItems:"center", width:"100%", paddingTop:"10px"}}>
                             <input type="text" placeholder='Enter Email Address' />
@@ -134,7 +134,7 @@ const HomeSection5 = () => {
                 </div> 
 
                 <div style={{marginTop:"40px", textAlign:"center"}}>
-                    <p style={{fontSize:"40px", fontWeight:"700", paddingBottom:"10px"}}>Browse Recent Post</p>
+                    <p id='recent'>Browse Recent Post</p>
                     <p style={{fontSize:"16px", color:"400",color:"rgb(93, 99, 116)"}}>Interactively product distinctive paradigms whereas one-to-one <br /> intellectual capital. resource sucking services.</p>
                 </div>
 

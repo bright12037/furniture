@@ -6,7 +6,6 @@
 }
 
 .Setion5{
- 
     display: flex;
     gap: 10px;
 }
@@ -186,5 +185,123 @@
 
 /* ===============================pointer================================ */
 .Pointer{
-    
+    padding: 0;
 }
+#mega{
+font-Size:24px; 
+font-Weight:400; 
+padding-Bottom:4px;
+}
+
+#newsofa{
+    font-Size:40px; font-Weight:800;  padding-Bottom:4px;
+}
+
+#assert{
+    font-Size:20px; font-Weight:400; color:gray; 
+     padding-Bottom:4px;
+}
+
+#subscribe{
+    font-Size:32px;
+     color:rgb(25, 29, 40);
+    font-Weight:800; line-Height:41px;
+}
+
+#recent{
+    font-Size:40px; font-Weight:700;
+     padding-Bottom:10px;
+
+}
+@media only screen and (min-width: 320px) and (max-width:768px)  {
+    .Setion5{
+        display: block;
+    }
+    .section5TopLeft{
+        padding-bottom: 4%;
+    }
+
+    #mega{
+        font-Size:20px; 
+        font-Weight:400; 
+        padding-Bottom:4px;
+        }
+
+    #newsofa{
+            font-Size:30px; font-Weight:800;  padding-Bottom:4px;
+    }
+    
+    .section5middle h1{
+        font-size: 20px;
+    }
+
+    .section5Bottomdiv{
+        display: block;
+       
+    }
+
+    .section6lastdiv{
+        display: block;
+    }
+
+   
+}   
+
+@media only screen and (min-width: 320px) and (max-width:596px)  {
+    
+    .section5TopLeft img{
+        height:130%;
+    }
+    #assert{
+        font-Size:12px; 
+        font-Weight:400; 
+        color:gray; 
+         padding-Bottom:4px;
+    }
+    .section5TopLeftbottom  {
+        position: absolute;
+        top: 0%;
+        left: 5%;
+    }
+    #newsofa{
+        font-Size:20px; font-Weight:800;  padding-Bottom:2px;
+    }
+
+    
+    #mega{
+    font-Size:15px; 
+    font-Weight:400; 
+    padding-Bottom:4px;
+    }
+    .section5TopLeftbottom button{
+        display: none;
+    }
+
+    #subscribe{
+        font-Size:20px;
+        color:rgb(25, 29, 40);
+       font-Weight:800;
+        line-height: 20px;
+        width: 90%;
+   }
+   /* .section6bottom input{
+    width: 70%;
+   }
+   .ssection6bottom p{
+    color:white; background-Color:#FF7C0A; 
+    font-Weight:600;
+    font-Size:10px; padding:2px;
+   }
+     */
+
+     .section6bottom div{
+        display: none;
+     }
+     
+     #recent{
+        font-Size:20px; font-Weight:700;
+         padding-Bottom:10px;
+    
+    }
+}
+

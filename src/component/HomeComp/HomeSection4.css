@@ -4,6 +4,19 @@
     font-family: sans-serif;
     background-color: #FDF9F5;
 }
+
+.Section4Top{
+    display:flex; 
+    align-Items:center;  
+}
+
+#globally{
+    font-Size:16px; 
+    font-Weight:400;
+    margin-Left:auto; 
+    color:gray;
+}
+
 .Section4middle{
     display: flex;
     align-items: center;
@@ -117,4 +130,59 @@
 
 .internaldivicon p{
     padding-bottom: 20px;
+}
+#allfuniture{
+    display: none;
+}
+#allfuniture2{
+    margin-Left:auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px)  {
+    .Section4Top{
+        display: block;
+        gap: 10px;
+        
+    }
+
+    #globally{
+        font-Size:14px; 
+        font-Weight:400; 
+        color:gray;
+        padding: 20px 0;
+    }
+ 
+    #allfuniture{
+        display: block;
+    }
+    #allfuniture2{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width:599px)  {
+
+  .Section4midddleLeft{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Section4Bottom{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px)  {
+    .Section4midddleLeft{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .Section4Bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }

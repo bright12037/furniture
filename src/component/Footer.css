@@ -53,4 +53,9 @@
         display: block;
         padding-bottom: 5%;
     }
+    .footersectionbottom img{
+        padding: 20px 0;
+        width: 30%;
+        height: 30%;
+    }
 }

@@ -66,8 +66,8 @@ const HomeSection1 = () => {
                   <p onClick={handleShowSection2}><GoDotFill /></p>
                   <p onClick={handleShowSection3}><GoDotFill /></p>
                 </div>
-
-          </div>
+          </div> 
+                       
         ) : ('')}
 
 
